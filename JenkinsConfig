@@ -5,10 +5,10 @@ node{
 
 stage 'task2'
 node{
-    sh "gradle"
+    bat "gradle"
 }
 
 stage 'test'
 node{
-    sh "gradle test"
+    bat "gradle test"
 }
