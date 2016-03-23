@@ -5,9 +5,10 @@ node{
 
 stage 'task2'
 node{
+    sh "gradle"
 }
 
 stage 'test'
 node{
-    gradle test
+    sh "gradle test"
 }
