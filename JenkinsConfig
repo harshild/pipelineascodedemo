@@ -5,7 +5,8 @@ node{
 
 stage 'task2'
 node{
-    bat "%GRADLE_HOME%\\bin\\gradle.exe "
+    def gradle = tool 'Gradle'
+    bat "${gradle}\\bin\\gradle.exe "
 }
 
 stage 'test'
