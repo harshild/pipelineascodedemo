@@ -1,6 +1,6 @@
 stage 'task1'
 node{
-
+    checkout scm
 }
 
 stage 'task2'
@@ -9,4 +9,5 @@ node{
 
 stage 'test'
 node{
+    gradle test
 }
