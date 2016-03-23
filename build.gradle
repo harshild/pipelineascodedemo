@@ -1,9 +1,1 @@
 apply plugin: 'java'
-
-task1{
-
-}
-
-task2{
-
-}
