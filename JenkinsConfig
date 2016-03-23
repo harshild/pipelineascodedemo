@@ -5,6 +5,7 @@ node{
 
 stage 'task2'
 node{
+    bat "echo %GRADLE_HOME%"
     bat "gradle"
 }
 
