@@ -1,0 +1,12 @@
+stage 'task1'
+node{
+
+}
+
+stage 'task2'
+node{
+}
+
+stage 'test'
+node{
+}

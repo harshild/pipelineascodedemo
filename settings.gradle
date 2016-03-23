@@ -1,1 +1,3 @@
+include 'testProject1'
+findProject(':testProject1')?.name = 'test'
 
