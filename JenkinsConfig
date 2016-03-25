@@ -6,6 +6,7 @@ node{
 
 stage 'Check Gradle Installation'
 node{
+    def gradle = tool 'Gradle'
     bat "${gradle}\\bin\\gradle"
 }
 
