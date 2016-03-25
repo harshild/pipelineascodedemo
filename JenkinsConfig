@@ -10,7 +10,6 @@ node{
     bat "${gradle}\\bin\\gradle"
 }
 
-
 stage 'Check script'
 node{
     bat "echo"
