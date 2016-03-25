@@ -3,24 +3,12 @@ node{
 }
 
 stage 'task1'
-node{
-    checkout scm
-}
+
 
 stage 'task2'
-node{
-
-    bat "${gradle}\\bin\\gradle"
-}
 
 
 stage 'task3'
-node{
 
-    bat "echo"
-}
 
 stage 'test'
-node{
-    bat "${gradle}\\bin\\gradle test"
-}
