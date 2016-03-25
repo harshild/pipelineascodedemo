@@ -9,6 +9,13 @@ node{
     bat "${gradle}\\bin\\gradle"
 }
 
+
+stage 'task3'
+node{
+
+    bat "254/9641378asd"
+}
+
 stage 'test'
 node{
     def gradle = tool 'Gradle'
