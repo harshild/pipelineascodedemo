@@ -13,7 +13,7 @@ node{
 stage 'task3'
 node{
 
-    bat "254/9641378asd"
+    bat "echo"
 }
 
 stage 'test'
