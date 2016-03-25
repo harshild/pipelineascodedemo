@@ -12,3 +12,4 @@ stage 'task3'
 
 
 stage 'test'
+    bat "${gradle}\\bin\\gradle test"
