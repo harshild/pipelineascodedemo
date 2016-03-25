@@ -1,4 +1,6 @@
-def gradle = tool 'Gradle'
+node{
+    def gradle = tool 'Gradle'
+}
 
 stage 'task1'
 node{
