@@ -18,5 +18,6 @@ node{
 
 stage 'Run Tests'
 node{
+    def gradle = tool 'Gradle'
     bat "${gradle}\\bin\\gradle test"
 }
