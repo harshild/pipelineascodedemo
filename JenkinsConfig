@@ -1,15 +1,21 @@
+
+stage 'Pull Source Code'
 node{
-    def gradle = tool 'Gradle'
+    checkout scm
 }
 
-stage 'task1'
+stage 'Check Gradle Installation'
+node{
+    bat "${gradle}\\bin\\gradle"
+}
 
 
-stage 'task2'
+stage 'Check script'
+node{
+    bat "echo"
+}
 
-
-stage 'task3'
-
-
-stage 'test'
+stage 'Run Tests'
+node{
     bat "${gradle}\\bin\\gradle test"
+}
